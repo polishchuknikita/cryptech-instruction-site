@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 14px 0 15px;
+}
+
+.container img {
+    margin-top: 20px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu li {
+    margin-right: 20px;
+    margin-bottom: 5зч;
+}
+
+.menu li:last-child {
+    margin-bottom: 0;
+}
+
+ul ul {
+    padding-left: 15px;
+}
+
+h2, h3, h4 {
+    margin: 15px 0;
+}
+
+section, header {
+    padding: 50px 0;
+}
